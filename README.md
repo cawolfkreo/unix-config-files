@@ -30,6 +30,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
+## Zsh themes
+```Zsh
+mkdir -p ~/.config/zsh/themes
+```
+Download these themes and save them on the previously created folder:
+* [fletcherm](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fletcherm.zsh-theme)
+
 # Vim intallation
 ```Zsh
 mkdir -p ~/.vim/pack
