@@ -1,9 +1,30 @@
 # unix-config-files
 
-# Installing Oh my Zsh
+# Installing Zsh
 ```Zsh
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)
+pacman -S zsh
 ```
+## Config folder
+```Zsh
+mkdir -p ~/.config/zsh/plugs
+```
+
+## Dotenv
+```Zsh
+mkdir -p ~/.config/zsh/plugs/dotenv
+```
+Download [this script](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dotenv/dotenv.plugin.zsh) and save it into your dotenv folder (the one you just created). 
+
+## Install autosuggestions
+```Zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugs/zsh-autosuggestions
+```
+
+## Install syntax highlighting 
+```Zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugs/zsh-syntax
+```
+
 ## Extra Plugins
 ```Zsh
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
