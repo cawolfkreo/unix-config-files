@@ -40,6 +40,9 @@ Download these themes and save them on the previously created folder:
 Download this file and save it on `~/.config/zsh`:
 [aliases.zsh](./.config/zsh/aliases.zsh)
 
+## Welcome message
+Download the two `message.*` files ([the zhs](./.config/zsh/message.zsh) one and the [the txt](./.config/zsh/message.txt) one) and save them in the same folder where the aliases are.
+
 ## .zshrc
 Download the [.zshrc file from this repo](./.zshrc) and remember to save it in your `~` folder.
 
