@@ -36,7 +36,7 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CU
 mkdir -p ~/.config/zsh/themes
 ```
 Download these themes and save them on the previously created folder:
-* [fletcherm](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fletcherm.zsh-theme)
+* [redmarsh](./.config/zsh/themes/redmarsh.zsh)
 
 # Vim intallation
 ```Zsh
