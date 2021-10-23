@@ -34,6 +34,7 @@ mkdir -p ~/.config/zsh/themes
 ```
 Download these themes and save them on the previously created folder:
 * [redmarsh](./.config/zsh/themes/redmarsh.zsh)
+* [fletcherm stand alone version](./.config/zsh/themes/fletcherm.zsh-theme)
 
 ## Zsh aliases
 Download this file and save it on `~/.config/zsh`:
