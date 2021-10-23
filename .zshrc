@@ -40,8 +40,6 @@ bindkey "^[[1;5D" backward-word
 #     Message
 # ===============
 $ZDOTDIR/message.zsh
-echo $fg[yellow]"\t\t\tWelcome "${USER}" to Zsh"
-echo $fg[yellow]"\t\t    Good luck with your hacking! 😎"
 
 # ===============
 #      Theme
