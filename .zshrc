@@ -25,12 +25,6 @@ export SAVEHIST=1000
 setopt SHARE_HISTORY
 zle_highlight=("paste:none")
 
-#gwsl
-export GDK_SCALE=2 #GWSL
-export QT_SCALE_FACTOR=2 #GWSL
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
-export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
-
 # Key binds for home,
 # del and end keys
 bindkey  "^[[H"   beginning-of-line
@@ -46,8 +40,8 @@ bindkey "^[[1;5D" backward-word
 #     Message
 # ===============
 $ZDOTDIR/message.zsh
-echo $fg[green]"\t\t\tWelcome "${USER}" to Zsh"
-echo $fg[green]"\t\t    Good luck with your hacking! 😎"
+echo $fg[yellow]"\t\t\tWelcome "${USER}" to Zsh"
+echo $fg[yellow]"\t\t    Good luck with your hacking! 😎"
 
 # ===============
 #      Theme
