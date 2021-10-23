@@ -45,4 +45,11 @@ Download the [.zshrc file from this repo](./.zshrc) and remember to save it in y
 
 # Vim intallation
 ## Pathogen
-Follow the installation section [on the official repo.](https://github.com/tpope/vim-pathogen) Pathogen auto-updates your packages so it's not a bad option for a vim plugin manager. 
+Follow the installation section [on the official repo.](https://github.com/tpope/vim-pathogen) Pathogen auto-updates your packages so it's not a bad option for a vim plugin manager.
+
+## vim searchlight
+When searching on Vim it can be confusing to know where exactly the cursor is when iterating on each result, this plugin improves vim highlighting for search results. 
+```Zsh
+cd .vim/bundle && \
+git clone https://github.com/PeterRincker/vim-searchlight
+```
