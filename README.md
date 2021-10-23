@@ -25,12 +25,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugs/z
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugs/zsh-syntax
 ```
 
-## Extra Plugins
-```Zsh
-sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
 ## Zsh themes
 ```Zsh
 mkdir -p ~/.config/zsh/themes
