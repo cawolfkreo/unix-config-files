@@ -4,3 +4,4 @@
 autoload colors; colors
 message=$(< $ZDOTDIR"/message.txt")
 echo $fg[red]$message
+echo
