@@ -7,12 +7,6 @@ autoload colors
 colors
 
 # ===============
-#     Message
-# ===============
-echo $fg[red]"Welcome "${USER}" to ZSH"
-echo $fg["#ffa526"]"Hope you are ready to hack! 😎"
-
-# ===============
 #     Alias
 # ===============
 source ~/.config/zsh/aliases.zsh
@@ -20,6 +14,7 @@ source ~/.config/zsh/aliases.zsh
 # ===============
 #    Variables
 # ===============
+export ZDOTDIR=$HOME"/.config/zsh"
 export EDITOR="vim"
 export COLORTERM=truecolor
 setopt AUTO_CD
@@ -46,6 +41,13 @@ bindkey  "^[[3~"  delete-char
 # ctrl+arrow
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
+
+# ===============
+#     Message
+# ===============
+$ZDOTDIR/message.zsh
+echo $fg[yellow]"Welcome "${USER}" to ZSH"
+echo $fg[yellow]"Hope you are ready to hack! 😎"
 
 # ===============
 #      Theme
