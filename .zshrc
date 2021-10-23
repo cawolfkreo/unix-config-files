@@ -26,7 +26,7 @@ export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $
 #      Theme
 # ===============
 setopt prompt_subst
-source ~/.config/zsh/themes/purification/prompt_purification_setup
+source ~/.config/zsh/themes/redmarsh.zsh
 
 # ===============
 #     Plugins
