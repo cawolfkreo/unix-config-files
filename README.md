@@ -32,6 +32,10 @@ mkdir -p ~/.config/zsh/themes
 Download these themes and save them on the previously created folder:
 * [redmarsh](./.config/zsh/themes/redmarsh.zsh)
 
+## Zsh aliases
+Download this file and save it on `~/.config/zsh`:
+[aliases.zsh](./.config/zsh/aliases.zsh)
+
 # Vim intallation
 ```Zsh
 mkdir -p ~/.vim/pack
