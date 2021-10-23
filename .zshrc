@@ -10,6 +10,7 @@ colors
 #     Message
 # ===============
 echo $fg[red]"Welcome "${USER}" to ZSH"
+echo $fg["#ffa526"]"Hope you are ready to hack! 😎"
 
 # ===============
 #     Alias
@@ -28,6 +29,12 @@ export HISTSIZE=1000
 export SAVEHIST=1000
 setopt SHARE_HISTORY
 zle_highlight=("paste:none")
+
+#gwsl
+export GDK_SCALE=2 #GWSL
+export QT_SCALE_FACTOR=2 #GWSL
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
+export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
 
 # Key binds for home,
 # del and end keys
