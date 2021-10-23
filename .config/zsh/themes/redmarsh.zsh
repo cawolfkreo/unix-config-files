@@ -8,6 +8,8 @@ load_git_branch() {
 
         autoload -Uz vcs_info
         precmd() {vcs_info}
+        # Examples for vcs_info taken from:
+        #       https://github.com/zsh-users/zsh/blob/master/Misc/vcs_info-examples
 
         zstyle ':vcs_info:*' check-for-changes true
         zstyle ':vcs_info:*' stagedstr ' +'
