@@ -1,6 +1,6 @@
 # unix-config-files
 
-## Pacman
+# Pacman
 Don't forget tu uncomment `Color` in `/etc/pacman.conf` and also add `ILoveCandy` to the file
 
 # Installing Zsh
@@ -39,7 +39,9 @@ Download these themes and save them on the previously created folder:
 Download this file and save it on `~/.config/zsh`:
 [aliases.zsh](./.config/zsh/aliases.zsh)
 
+## .zshrc
+Download the [.zshrc file from this repo](./.zshrc) and remember to save it in your `~` folder.
+
 # Vim intallation
-```Zsh
-mkdir -p ~/.vim/pack
-```
+## Pathogen
+Follow the installation section [on the official repo.](https://github.com/tpope/vim-pathogen) Pathogen auto-updates your packages so it's not a bad option for a vim plugin manager. 
