@@ -1,5 +1,8 @@
 # unix-config-files
 
+## Pacman
+Don't forget tu uncomment `Color` in `/etc/pacman.conf` and also add `ILoveCandy` to the file
+
 # Installing Zsh
 ```Zsh
 pacman -S zsh
