@@ -56,3 +56,5 @@ When searching on Vim it can be confusing to know where exactly the cursor is wh
 cd .vim/bundle && \
 git clone https://github.com/PeterRincker/vim-searchlight
 ```
+## vim .vimrc
+Download the [.vimrc file from this repo](./.vimrc) and remember to save it in your `~` folder.
