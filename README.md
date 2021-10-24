@@ -10,6 +10,7 @@ pacman -S zsh
 ## Config folder
 ```Zsh
 mkdir -p ~/.config/zsh/plugs
+mkdir -p ~/.config/zsh/cache
 ```
 
 ## Dotenv
