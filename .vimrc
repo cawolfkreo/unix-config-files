@@ -17,9 +17,8 @@ set mouse=a
 set tabstop=4
 set autoindent
 
-
-
 " My status line
+set noshowmode  " We hide the mode since it will be displayed on the statusline
 hi User1 term=bold cterm=bold ctermfg=234 ctermbg=249
 hi User2 term=bold cterm=bold ctermfg=203 ctermbg=234
 hi User3 term=bold cterm=bold ctermfg=166 ctermbg=234
@@ -84,7 +83,6 @@ function! StatuslineSet()
                 let stline= stline . ' ::'
                 let stline= stline . ' %n'
                 let stline= stline . ' ››%*'
-
 
                 return stline
 
