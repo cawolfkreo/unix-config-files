@@ -69,7 +69,6 @@ function! StatuslineSet()
                 let stline.= ' ❵'
 
                 let modeColor = StatusColor()
-
                 let stline.= modeColor
 
                 let stline.= ' %m'
