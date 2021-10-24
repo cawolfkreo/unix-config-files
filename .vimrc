@@ -19,7 +19,8 @@ set autoindent
 
 " My status line
 set noshowmode  " We hide the mode since it will be displayed on the statusline
-hi User1 term=bold cterm=bold ctermfg=234 ctermbg=249
+" hi User1 term=bold cterm=bold ctermfg=234 ctermbg=249
+hi User1 term=bold cterm=bold ctermfg=255 ctermbg=026
 hi User2 term=bold cterm=bold ctermfg=203 ctermbg=234
 hi User3 term=bold cterm=bold ctermfg=166 ctermbg=234
 " Insert mode color
@@ -29,7 +30,9 @@ hi User5 ctermfg=234 ctermbg=208
 " Replace mode color
 hi User6 ctermfg=234 ctermbg=033
 " Normal mode color
-hi User7 ctermfg=234 ctermbg=160
+"hi User7 ctermfg=234 ctermbg=160
+"hi User7 ctermfg=015 ctermbg=124
+hi User7 ctermfg=232 ctermbg=196
 hi User8 term=bold cterm=bold ctermfg=032 ctermbg=234
 
 " Numbers taken from: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
@@ -58,13 +61,14 @@ endfunction
 
 " This function creates the structure of the status line
 function! StatuslineSet()
+                " Unicode chars: https://unicode-table.com/en/#hangul-syllables
                 let stline = ''
                 let stline= stline . '%1*'
                 let stline= stline . ' %l/%L'
                 let stline= stline . ' %2*'
-                let stline= stline . ' ‹‹'
-                let stline= stline . ' %f'
-                let stline= stline . ' ››'
+                let stline= stline . ' ❴'
+                let stline= stline . ' 🗎%t'
+                let stline= stline . ' ❵'
 
                 let modeColor = StatusColor()
 
@@ -78,14 +82,14 @@ function! StatuslineSet()
                 let stline= stline . ' %8*'
                 let stline= stline . ' %y'
                 let stline= stline . '%3*'
-                let stline= stline . ' ‹‹'
+                let stline= stline . ' 〘'
                 let stline= stline . " %{strftime('%R',getftime(expand('%')))}"
-                let stline= stline . ' ::'
+                "let stline= stline . ' ::'
+                let stline= stline . ' ⋮'
                 let stline= stline . ' %n'
-                let stline= stline . ' ››%*'
+                let stline= stline . ' 〙%*'
 
                 return stline
-
 endfunction
 set laststatus=2
 set statusline=%!StatuslineSet()
