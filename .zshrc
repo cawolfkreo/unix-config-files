@@ -15,6 +15,7 @@ source ~/.config/zsh/aliases.zsh
 #    Variables
 # ===============
 export ZDOTDIR=$HOME"/.config/zsh"
+export ZSH_CACHE_DIR=$ZDOTDIR"/cache"
 export EDITOR="vim"
 export COLORTERM=truecolor
 setopt AUTO_CD
@@ -24,6 +25,12 @@ export HISTSIZE=1000
 export SAVEHIST=1000
 setopt SHARE_HISTORY
 zle_highlight=("paste:none")
+
+#gwsl
+export GDK_SCALE=2 #GWSL
+export QT_SCALE_FACTOR=2 #GWSL
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
+export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
 
 # Key binds for home,
 # del and end keys
