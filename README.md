@@ -1,7 +1,7 @@
 # unix-config-files
 
 # Pacman
-Don't forget tu uncomment `Color` in `/etc/pacman.conf` and also add `ILoveCandy` to the file
+Don't forget to uncomment `Color` in `/etc/pacman.conf` and also add `ILoveCandy` to the file.
 
 # Installing Zsh
 ```Zsh
@@ -59,3 +59,19 @@ git clone https://github.com/PeterRincker/vim-searchlight
 ```
 ## vim .vimrc
 Download the [.vimrc file from this repo](./.vimrc) and remember to save it in your `~` folder.
+
+# Alacritty (Optional)
+This is a simple terminal emulator that should work on most OS. It is lightweight but it uses hardware acceleration to work, if your PC is not supported, you might want to check if your hardware is compatible. 
+
+## alacritty.yml
+```Zsh
+mkdir -p ~/.config/alacritty
+```
+Download this file and save it on `~/.config/alacritty/`:
+[alacritty.yml](./.config/alacritty/alacritty.yml)
+
+## alacritty and vim
+```Vim
+set ttymouse=sgr
+```
+There is a ""feature"" on alacritty/vim and this is necessary for vim to read the mouse input from the terminal, add it to the `.vimrc`.
