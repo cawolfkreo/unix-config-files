@@ -1,4 +1,5 @@
 # unix-config-files
+These files are my personal configuration files to run zsh and vim on an Arch base system. You can use them on other unix like systems like macOS, Ubuntu, etc. The biggest difference is that you need to look at the documentation of your own package manager instead of using `pacman` to install zsh and/or vim.
 
 # Pacman
 Don't forget to uncomment `Color` in `/etc/pacman.conf` and also add `ILoveCandy` to the file.
