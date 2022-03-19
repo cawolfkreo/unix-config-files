@@ -14,7 +14,6 @@ source ~/.config/zsh/aliases.zsh
 # ===============
 #    Variables
 # ===============
-export ZDOTDIR=$HOME"/.config/zsh"
 export ZSH_CACHE_DIR=$ZDOTDIR"/cache"
 export EDITOR="vim"
 export COLORTERM=truecolor
