@@ -48,7 +48,7 @@ Download the two `message.*` files ([the zhs](./.config/zsh/message.zsh) one and
 Download the [.zshrc file from this repo](./.config/zsh/.zshrc) and remember to save it in your `~/.config/zsh/` folder.
 
 ## .zshenv
-Download the [.zshenv or the zsh env variables file](./zshenv) and remember to save it in your `~/` folder.
+Download the [.zshenv or the zsh env variables file](./.zshenv) and remember to save it in your `~/` folder.
 
 # Vim intallation
 ## Pathogen
