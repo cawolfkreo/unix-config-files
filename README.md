@@ -42,6 +42,9 @@ Download these themes and save them on the previously created folder:
 Download this file and save it on `~/.config/zsh/`:
 [aliases.zsh](./.config/zsh/aliases.zsh)
 
+## Zsh man pages color
+Download the `color-manpages.zsh` [file](./.config/zsh/color-manpages.zsh) and save it on the same folder where you just stored the aliases.
+
 ## Welcome message
 Download the two `message.*` files ([the zhs](./.config/zsh/message.zsh) one and the [the txt](./.config/zsh/message.txt) one) and save them in the same folder where the aliases are.
 

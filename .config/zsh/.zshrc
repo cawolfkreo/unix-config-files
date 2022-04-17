@@ -9,12 +9,12 @@ colors
 # ===============
 #     Alias
 # ===============
-source ~/.config/zsh/aliases.zsh
+source "$ZDOTDIR/aliases.zsh"
 
 # ===============
 #    Variables
 # ===============
-export ZSH_CACHE_DIR=$ZDOTDIR"/cache"
+export ZSH_CACHE_DIR="$ZDOTDIR/cache"
 export EDITOR="vim"
 export COLORTERM=truecolor
 setopt AUTO_CD
@@ -23,6 +23,7 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=1000
 export SAVEHIST=1000
 setopt SHARE_HISTORY
+source "$ZDOTDIR/color-manpages.zsh"
 zle_highlight=("paste:none")
 
 #gwsl
@@ -51,17 +52,17 @@ $ZDOTDIR/message.zsh
 #      Theme
 # ===============
 setopt prompt_subst
-source ~/.config/zsh/themes/redmarsh.zsh
+source "$ZDOTDIR/themes/redmarsh.zsh"
 
 # ===============
 #     Plugins
 # ===============
 
 # Dotenv:
-source ~/.config/zsh/plugs/dotenv/dotenv.plugin.zsh
+source "$ZDOTDIR/plugs/dotenv/dotenv.plugin.zsh"
 
 # zsh-autosuggestions:
-source ~/.config/zsh/plugs/zsh-autosuggestions/zsh-autosuggestions.zsh
+source "$ZDOTDIR/plugs/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # zsh-syntax-highlighting
-source ~/.config/zsh/plugs/zsh-syntax/zsh-syntax-highlighting.zsh
+source "$ZDOTDIR/plugs/zsh-syntax/zsh-syntax-highlighting.zsh"
