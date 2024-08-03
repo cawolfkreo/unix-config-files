@@ -15,6 +15,7 @@ set mouse=a
 
 " Indentation"
 set tabstop=4
+set shiftwidth=4
 set autoindent
 
 " My status line
